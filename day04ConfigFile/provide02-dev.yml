@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: provide
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot_cloud_003?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8002
+version: version02-在本地改的
