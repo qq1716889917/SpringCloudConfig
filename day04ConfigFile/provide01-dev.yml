@@ -12,4 +12,4 @@ spring:
     show-sql: true
 server:
   port: 8001
-version: version01
+version: version01-在本地改的
